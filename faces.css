@@ -1,0 +1,110 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+    background-color: #F6F6F6;
+}
+#container {
+    width: 73%; 
+    margin: 0 auto;
+    background-color: #F6F6F6;
+    margin-top: 108px;
+}
+h1 {
+  text-align: center;
+    text-transform: uppercase;
+    font-size: 27px;
+    color: #513832;
+}
+h3 {
+  padding-top: 60px;
+  text-align: center;
+  font-size: 16 pt;
+  font-family: "Myriad Pro", serif;
+  color: #393939;
+}
+
+#flexbox {
+  display: inline-flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 292px;
+  perspective: 1170px;
+}
+
+.card1, .card2, .card3, .card4 {
+  position: relative;
+}
+
+.photo1 {  
+  display: flex;
+  transition: 1s;
+  backface-visibility: hidden;
+}
+.back1 {  
+  transform: rotateY(180deg);
+  width: 268px;
+  height: 279px;
+  background-color: #00A9C8;
+  position: absolute;
+  display: flex;
+  transition: 1s;
+  backface-visibility: hidden;
+}
+.photo2 {  
+  display: flex;
+  transition: 1s;
+  backface-visibility: hidden;
+}
+.back2 {  
+  transform: rotateY(180deg);
+  width: 268px;
+  height: 279px;
+  background-color: #00A9C8;
+  position: absolute;
+  display: flex;
+  transition: 1s;
+  backface-visibility: hidden;
+}
+.photo3 {  
+  display: flex;
+  transition: 1s;
+  backface-visibility: hidden;
+}
+.back3 {  
+  transform: rotateY(180deg);
+  width: 268px;
+  height: 279px;
+  background-color: #00A9C8;
+  position: absolute;
+  display: flex;
+  transition: 1s;
+  backface-visibility: hidden;
+}
+.photo4 {  
+  display: flex;
+  transition: 1s;
+  backface-visibility: hidden;
+}
+.back4 {  
+  transform: rotateY(180deg);
+  width: 268px;
+  height: 279px;
+  background-color: #00A9C8;
+  position: absolute;
+  display: flex;
+  transition: 1s;
+  backface-visibility: hidden;
+}
+.card1:hover .photo1 {transform:rotateY(180deg)};
+.card1:hover .back1 {transform:rotateY(360deg)};
+
+.card2:hover .photo2 {transform:rotateY(180deg)};
+.card2:hover .back2 {transform:rotateY(360deg)};
+
+.card3:hover .photo3 {transform:rotateY(180deg)};
+.card3:hover .back3 {transform:rotateY(360deg)};
+
+.card4:hover .photo4 {transform:rotateY(180deg)};
+.card4:hover .back4 {transform:rotateY(360deg)};
